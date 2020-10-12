@@ -1,0 +1,93 @@
+body, button {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: auto;
+	width: 400px;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+input {
+	font-size: 18px;
+	border-radius: 20px;
+	width: 96%;
+	height: 40px;
+	border: 0;
+	background-color: #F0F0F0;
+	padding-left: 15px;
+}
+
+input:focus{
+	outline: none;
+}
+
+#submit-btn {
+	width: 100%;
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+
+#submit-btn:hover {
+	background-color: #3CFFA3;
+	color: black;
+
+}
+
+#submit-btn:active {
+	background-color: #3cffa4cb;
+	color: black;
+}
+
+li {
+	list-style-type: none;
+	padding-left: 10px;
+	height: 40px;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li button {
+	padding: 0px 10px 0px 10px;
+	float: right;
+	border: none;
+	background-color: rgba(0,0,0,0);
+	/* transition: all 0.8s; */
+}
+
+li::before {
+	content: "•  ";
+	font-weight: 900;
+	font-size: 24px;
+}
+
+li:hover {
+	background-color: #3CFFA3;
+	transition: all 0.8s;
+}
+
+li button {
+	opacity: 0;
+}
+
+li:hover button {
+	opacity: 1;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: lightgray;
+}
